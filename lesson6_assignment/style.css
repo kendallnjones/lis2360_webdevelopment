@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document created by Christy Chatmon, Spring 2019*/
+
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.8em;
+	color: #3FB4FF;
+	background-color: #303030;
+	padding: 0 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+}
+h1 {
+	font-size: 26px;
+	padding: 4px 0;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 20px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #303030;
+}
+h3 {
+	font-size: 18px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #303030;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #324BFF;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 14px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #FFFFFF 1px;
+}
+td {
+	padding: 6px;
+	border: solid #FFFFFF 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #303030;
+	text-align: center;
+	padding: 6px;
+	border: solid #FFFFFF 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #FFFFFF 1px;
+}
+
+img {
+	border: solid #FFFFFF 1px;
+
+}
+
+iframe {
+	border: solid #FFFFFF 1px;
+	padding: 8px;
+	margin: 8px;
+}
+
+#CELL1.1 {background-color: #303030;}
+#CELL1.2 {background-color: #FFFFFF;}
+#CELL1.3 {background-color: #3FB4FF;}
+#CELL1.4 {background-color: #3243FF;}
